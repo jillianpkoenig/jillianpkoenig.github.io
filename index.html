@@ -16,8 +16,6 @@
             #blondies{color: rgb(69, 190, 230);}
             #buttercream{color: rgb(55, 179, 165);}
             #krispie-treats{color: rgb(56, 98, 171);}
-            #blondies, #buttercream, #krispie-treats, #sugar-cookies{
-                border: double 9px;
             }
             #cake-pic{
                 float: right;
@@ -52,8 +50,11 @@
                 background-color: rgb(218, 250, 248);
             }
             #blondies-table{
-                border: dotted rgb(69, 190, 230);
+                border: single rgb(69, 190, 230);
                 
+            }
+            #buttercream-table {
+                border: single rgb(218, 250, 248)
             }
         </style>
     </head>
@@ -127,12 +128,12 @@
         <p id="blondies-table"><strong>Step 3:</strong> Pour into a pan and bake at 350 degrees for 20 minutes. Let cool. Cut into bars and enjoy!</p>
         
         <h2 id = "buttercream"> Recipe #2 - Buttercream</h2>
-            <ul>
+            <ul id="buttercream-table">
             <li>Time: 30 Minutes</li>
             <li>Yield: 9-inch cake or 24 cupcakes</li>
         </ul>
         <img  id="cake-pic" src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Piping_buttercream_onto_cake.JPG" alt="Pic of cake being frosted with buttercream">
-        <table>
+        <table id="buttercream-table">
             <thead>
                 <tr>
                     <th>Ingredients</th>
@@ -162,10 +163,10 @@
                 </tr>
             </tbody>
         </table>
-        <p><strong>Step 1:</strong> Beat together butter and shortening until combined.</p>
-        <p><strong>Step 2:</strong> Add in the vanilla extract and mix until just combined.</p>
-        <p><strong>Step 3:</strong> Gradually add in powdered sugar.  </p>
-        <p><strong>Step 4:</strong> Add in milk one Tbsp at a time. Frost cakes, cupcakes, etc. and enjoy! </p>
+        <p id="buttercream-table"><strong>Step 1:</strong> Beat together butter and shortening until combined.</p>
+        <p id="buttercream-table"><strong>Step 2:</strong> Add in the vanilla extract and mix until just combined.</p>
+        <p id="buttercream-table"><strong>Step 3:</strong> Gradually add in powdered sugar.  </p>
+        <p id="buttercream-table"><strong>Step 4:</strong> Add in milk one Tbsp at a time. Frost cakes, cupcakes, etc. and enjoy! </p>
         
         <h2 id = "krispie-treats"> Recipe # 3 - Rice Krispie Treats</h2>
         <ul>
