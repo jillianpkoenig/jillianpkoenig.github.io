@@ -1,0 +1,70 @@
+h1{color: rgb(255, 66, 183);
+    font-family: helvetica;
+    text-align: center;
+    font-size: 50px;
+}
+h2{color: rgb(247, 243, 54);
+    font-family: helvetica;
+    font-size: 30px;
+}
+#navigation {
+    color: black;
+    font-size: 35px;
+    text-align: center;
+}
+#logopic {
+    width: 500px;
+    height: 300px;
+    margin-left: 30%;
+    margin-right: 50%;
+}
+
+
+#blondies{color: black;}
+#buttercream{color: black;}
+#krispie-treats{color: black;}
+#sugar-cookies{color: black;}
+
+#cake-pic{
+    float: left;
+    width: 320px;
+    margin-right: 70px;
+    border: solid 6px yellow;
+}
+#krispie-pic{
+    float: right;
+    width: 320px;
+    margin-right: 70px;
+    border: solid 6px yellow;
+}
+#blondies-pic {
+    float: right;
+    width: 320px;
+    margin-right: 70px;
+    border: solid 6px yellow;
+}
+#sugarcookie-pic {
+    float: right;
+    margin-right: 70px;
+    margin-top: 30px;
+    
+}
+#intro {
+    font-family: "Comic Sans";
+    font-size: 20px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+#blondies-table{
+    border: single rgb(69, 190, 230);
+    
+}
+#buttercream-table {
+    border: single rgb(69, 190, 230);
+    
+}
+body{
+    background-color: white;
+}
