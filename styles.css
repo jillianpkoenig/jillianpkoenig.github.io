@@ -69,6 +69,6 @@ body{
     background-color: white;
 }
 #ellas-cake {
-    height: 100%;
-    width: auto;
+    max-height: 100%;
+    max-width: 50%;
 }
