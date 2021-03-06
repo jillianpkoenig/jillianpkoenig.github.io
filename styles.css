@@ -7,6 +7,9 @@ h2{color: rgb(247, 243, 54);
     font-family: helvetica;
     font-size: 30px;
 }
+body {
+   color: white; 
+}    
 #navigation {
     color: white;
     font-size: 50px;
@@ -55,6 +58,7 @@ h2{color: rgb(247, 243, 54);
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
+    color: white;
     
 }
 #blondies-table{
